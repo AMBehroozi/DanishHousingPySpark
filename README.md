@@ -5,14 +5,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-## 📓 Open in Colab
-
-[![Open Main Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AMBehroozi/DanishHousingPySpark/blob/main/DKHousingPricesPrediction.ipynb)
-[![Open Data Visualization in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AMBehroozi/DanishHousingPySpark/blob/main/data_visualization.ipynb)
-[![Open Data Download in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AMBehroozi/DanishHousingPySpark/blob/main/get_data.ipynb)
-
----
-
 A machine learning project that predicts Danish housing prices per square meter (DKK/m²) using Apache Spark and Gradient Boosted Trees regression. The model leverages both traditional features and advanced encoding techniques to achieve accurate predictions on real estate data.
 
 ## 📊 Project Overview
@@ -84,6 +76,8 @@ The project includes a pre-processed Parquet file (`DKHousingPrices.parquet`). I
 ```bash
 jupyter notebook get_data.ipynb
 ```
+[![Open Data Download in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AMBehroozi/DanishHousingPySpark/blob/main/get_data.ipynb)
+
 
 ### 3. Run the Prediction Pipeline
 
@@ -92,7 +86,7 @@ Open and execute the main notebook:
 ```bash
 jupyter notebook DKHousingPricesPrediction.ipynb
 ```
-
+[![Open Main Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AMBehroozi/DanishHousingPySpark/blob/main/DKHousingPricesPrediction.ipynb)
 ## 📊 Dataset Features
 
 ### Categorical Features (Low Cardinality)
@@ -187,6 +181,7 @@ For detailed exploratory data analysis, see:
 ```bash
 jupyter notebook data_visualization.ipynb
 ```
+[![Open Data Visualization in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AMBehroozi/DanishHousingPySpark/blob/main/data_visualization.ipynb)
 
 This notebook includes:
 - Distribution analysis of housing prices
