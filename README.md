@@ -1,5 +1,12 @@
 # Danish Housing Price Prediction with PySpark
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![PySpark](https://img.shields.io/badge/PySpark-3.x-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+
+
+
 A machine learning project that predicts Danish housing prices per square meter (DKK/m²) using Apache Spark and Gradient Boosted Trees regression. The model leverages both traditional features and advanced encoding techniques to achieve accurate predictions on real estate data.
 
 ## 📊 Project Overview
